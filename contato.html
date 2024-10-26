@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lemon&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
     <!--Final do google fonts-->
-    <link rel="stylesheet" href="styleindex.css">
+    <link rel="stylesheet" href="stylecontato.css">
     <title>Portfólio</title>
 </head>
 <body>
@@ -26,10 +26,7 @@
 
             <nav class="menu-desktop">
                 <ul>
-                    <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="#Parcerias">Parcerias</a></li>
-                    <li><a href=""></a></li>
-                    <li><a href="#Trabalhos">Trabalhos</a></li>
+                    <li><a href="index.html">Início</a></li>
                 </ul>
             </nav>
 
@@ -41,14 +38,21 @@
         </div><!--Interface-->
     </header>
     <hr>
-    <section id="Menu">
-        <tr>
-            <td><h1 align="center"> Bem-vindo(a)!</h1></td>
-        </tr>    
-        <tr>
-            <td><p align="center"><img src="gatinho.jpg" width="500" height="500" alt="Gatinho legal"></p></td>
-        </tr>
-    </section>
-    <hr>
-</body>
+    <section class="formulario">
+        
+        <h1 class="titulo" align="center">Contato:</h1>
+        
+        <form action="">
+            <input type="text" name="nome" id="" placeholder="Seu nome:" required>
+            <input type="text" name="email" id="" placeholder="Seu e-mail:" required>
+            <input type="text" name="telefone" placeholder="Seu telefone:">
 
+            <textarea name="mensagem" id="" required placeholder="Deixe sua mensagem aqui:"></textarea>
+            
+            <div class="btn-contato">
+                <input type="submit" value="Enviar">
+            </div>
+
+        </form>
+    
+    </section>
